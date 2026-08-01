@@ -22,3 +22,6 @@ print("apos remove ", nomes)
 
 removido = nomes.pop(2) #removido e retorna o elemento do indice 2
 print(f"apos pop (removido {removido})", nomes)
+
+nomes.clear()# esvazia a lista
+print("Após clear ", nomes)
